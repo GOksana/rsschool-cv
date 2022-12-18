@@ -79,6 +79,9 @@ table {
   }
 
   .body{
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
 	min-height: 100vh;
 	margin: 0;
 	padding: 0;
@@ -86,18 +89,15 @@ table {
 	flex-direction: column;
 	justify-content: space-between;
   }
-
+  .wrepper{
+	
+  }
   .header{ 
 	max-width: 1440px;
     margin: 0 auto;
 	border: 1px solid red;
   }
 
-  .footer{ 
-	max-width: 1440px;
-	height: 50px;
-	border: 1px solid rgb(26, 255, 0);
-  }
   .header_wrepper{
 	display: flex;
 	flex-wrap: wrap;
@@ -125,44 +125,32 @@ table {
   .main{ 
 	max-width: 1440px;
 	height: auto;
-	border: 1px solid rgb(119, 0, 255);
   }
-
-.container{
-	max-width: 1440px;
-    margin: 0 auto;
+  .profile{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center
+	
+  }
+h1{
+	font-size: 40px;
 	font-family: 'Montserrat';
 	font-style: normal;
-	font-size: 16px;
-	font-weight: 400;
-    color: black;
+	font-weight: 900;
 }
 
-
- .photo{
-	display: flex;
-	flex-wrap: wrap;
-	
-	margin: 50px;
+.container{
+	width: 100%;
 	max-width: 1440px;
+    margin: 0 auto;
 
- }
- .name{
-	font-family: 'Montserrat';
-	font-style: normal;
-	font-size: 30px;
-	font-weight: 900;
-    color: black;
+}
+.contacts{
 	display: flex;
 	flex-wrap: wrap;
-	margin: 20px;
-
- }
-
- h2{
-	font-size: 20px;
-	font-weight: 400;
-    color: black;
- }
+	align-items: center;
+	justify-content: center
+}
 
 
